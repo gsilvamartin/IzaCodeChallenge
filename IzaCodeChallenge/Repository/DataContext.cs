@@ -10,6 +10,7 @@ namespace IzaCodeChallenge.Repository
 
         public DbSet<Cliente> Cliente => Set<Cliente>();
         public DbSet<Endereco> Endereco => Set<Endereco>();
+        public DbSet<Produto> Produto => Set<Produto>();
     }
 }
 
